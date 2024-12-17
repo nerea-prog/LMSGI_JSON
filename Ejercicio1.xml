@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga> <!-- Contiene todos los elementos relacionados con una tienda, es decir, es la raiz-->
+    <producte codigo=" 0001" categoria="informatica"> <!-- Este es el primer producto de la tienda, que tiene de atributos su codigo y su categoria ya que es unico-->
+        <nom> Raton</nom> <!-- Nombre del producto-->
+        <descripció> raton con luces leeds y comodo </descripció> <!-- Pequeña descripción sobre el producto-->
+        <disponibilitat> En estoc </disponibilitat> <!-- La disponiblidad del producto, es decir si está en estoc o agotado-->
+        <preu> 10€ </preu> <!-- Precio del producto-->
+        <imatge> https://moongaming.es/113-large_default/raton-titan-rgb.jpg </imatge> <!-- URL de la imagen del producto-->
+    </producte>
+    <producte codigo="0002" categoria="moda"> <!-- Este es el segundo producto de la tienda, que tiene de atributos su codigo y su categoria ya que es unico-->
+        <nom> camiseta</nom> <!-- Nombre del producto-->
+        <descripció> camiseta de algodon ideal para el invierno </descripció> <!-- Pequeña descripción sobre el producto-->
+        <disponibilitat> agotada </disponibilitat> <!-- La disponiblidad del producto, es decir si está en estoc o agotado-->
+        <preu> 14€ </preu> <!-- Precio del producto-->
+        <imatge> https://minimalismbrand.com/cdn/shop/files/camiseta-manga-larga-negro-algodon-organico-1_540x.jpg?v=1729609594 </imatge> <!-- URL de la imagen del producto-->
+    </producte>
+</botiga>
